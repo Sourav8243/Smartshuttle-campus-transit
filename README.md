@@ -135,7 +135,7 @@ Routes can be created, updated, and managed from the Admin dashboard.
 ### Student
 
 **Email**
-```text
+
 student@smartshuttle.com
 Password
 
