@@ -11,7 +11,7 @@ The system provides separate Student and Admin interfaces with a responsive and 
 ## 🌐 Live Demo
 
 🚀 **Live Application:**  
-[SmartShuttle Live Demo](YOUR_VERCEL_URL)
+https://smartshuttle-campus-transit-7k9z9wjri-sourav-c3d1.vercel.app/login
 
 📦 **GitHub Repository:**  
 https://github.com/Sourav8243/smartshuttle-campus-transit
@@ -26,14 +26,14 @@ SmartShuttle provides a centralized platform where:
 
 - Students can book campus shuttle rides.
 - Students can view upcoming and previous bookings.
-- Administrators can manage bookings.
+- Administrators can manage shuttle bookings.
 - Administrators can manage drivers and their availability.
-- Administrators can create and manage routes.
-- Drivers can be assigned to routes and bookings.
+- Administrators can create and manage shuttle routes.
+- Drivers can be assigned to routes and shuttle operations.
 - Administrators can monitor shuttle demand and usage.
 - Users can manage their profile and notification preferences.
 
-The project was developed as a frontend-focused prototype using mock data and browser local storage.
+This project was developed as a frontend-focused prototype using mock data and browser LocalStorage for persistence.
 
 ---
 
@@ -44,7 +44,8 @@ The project was developed as a frontend-focused prototype using mock data and br
 - Student login
 - Student dashboard
 - Book a shuttle
-- Select route and pickup/drop-off points
+- Select route
+- Select pickup and drop-off points
 - Select date and time
 - View booking details
 - View upcoming bookings
@@ -55,6 +56,7 @@ The project was developed as a frontend-focused prototype using mock data and br
 
 ### 👨‍💼 Admin Module
 
+- Admin login
 - Admin dashboard
 - Booking management
 - Search and filter bookings
@@ -76,6 +78,7 @@ The project was developed as a frontend-focused prototype using mock data and br
 - Booking utilization
 - Cancellation monitoring
 - Admin settings
+- Notification preferences
 
 ---
 
@@ -91,23 +94,7 @@ The Admin Analytics module provides insights into shuttle usage, including:
 - Booking trends
 - Date-based analytics
 
-These analytics can help administrators understand transportation demand and improve shuttle scheduling.
-
----
-
-## 🗺️ Route Management
-
-Administrators can manage campus shuttle routes including:
-
-- Route name
-- Pickup points
-- Drop-off points
-- Distance
-- Estimated duration
-- Route status
-- Assigned drivers
-
-Routes can be created, updated, and managed from the Admin dashboard.
+These analytics help administrators understand transportation demand and improve shuttle scheduling.
 
 ---
 
@@ -127,6 +114,22 @@ A visual timeline is provided to make driver availability easier to understand.
 
 ---
 
+## 🗺️ Route Management
+
+Administrators can manage campus shuttle routes including:
+
+- Route name
+- Pickup points
+- Drop-off points
+- Distance
+- Estimated duration
+- Route status
+- Assigned drivers
+
+Routes can be created, updated, and managed from the Admin dashboard.
+
+---
+
 ## 🔐 Demo Login Credentials
 
 ### Student
@@ -134,3 +137,46 @@ A visual timeline is provided to make driver availability easier to understand.
 **Email**
 ```text
 student@smartshuttle.com
+Password
+
+student123
+Admin
+
+Email
+
+admin@smartshuttle.com
+
+Password
+
+admin123
+
+These are demo credentials for the frontend prototype.
+
+🛠️ Technology Stack
+Frontend
+React
+TypeScript
+Vite
+Tailwind CSS
+React Router
+Lucide React
+Data & State
+Mock data
+Browser LocalStorage
+Client-side state management
+Development & Deployment
+Git
+GitHub
+Visual Studio Code
+Vercel
+npm
+
+👨‍💻 Author
+
+Sourav Kumar
+
+M.Tech – Artificial Intelligence & Machine Learning
+B.Tech – Computer Science & Engineering
+
+GitHub:
+https://github.com/Sourav8243
