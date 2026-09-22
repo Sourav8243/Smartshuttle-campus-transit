@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useMemo, useState } from 'react';
 import {
   CalendarDays,
@@ -558,3 +559,17 @@ function to24Hour(value: string) {
   if (match[3].toUpperCase() === 'AM' && hour === 12) hour = 0;
   return `${String(hour).padStart(2, '0')}:${match[2]}`;
 }
+=======
+import { Users } from 'lucide-react';
+import { PagePlaceholder } from '@/components/common/PagePlaceholder';
+
+export function AdminDriversPage() {
+  return (
+    <PagePlaceholder
+      title="Drivers"
+      description="Manage shuttle drivers and their assignments"
+      icon={<Users className="h-9 w-9" />}
+    />
+  );
+}
+>>>>>>> 5659604fc572f48fdc5ffb0a48e7a78db09dad67

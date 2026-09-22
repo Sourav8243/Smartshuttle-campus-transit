@@ -31,12 +31,15 @@ export interface ShuttleRoute {
   name: string;
   stops: string[];
   estimatedDuration: number;
+<<<<<<< HEAD
   distanceKm?: number;
   status?: 'active' | 'inactive';
   operatingStart?: string;
   operatingEnd?: string;
   assignedDriverId?: string;
   assignedDriverName?: string;
+=======
+>>>>>>> 5659604fc572f48fdc5ffb0a48e7a78db09dad67
 }
 
 export interface Shuttle {
@@ -76,5 +79,8 @@ export interface Booking {
   status: BookingStatus;
   createdAt: string;
 }
+<<<<<<< HEAD
 
 export type { DriverBreak, DriverSchedule } from './driverSchedule';
+=======
+>>>>>>> 5659604fc572f48fdc5ffb0a48e7a78db09dad67

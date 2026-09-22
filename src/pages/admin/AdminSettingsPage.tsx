@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useEffect, useState } from 'react';
 import {
   Bell,
@@ -178,5 +179,17 @@ export function AdminSettingsPage() {
         </div>
       </div>
     </div>
+=======
+import { Settings } from 'lucide-react';
+import { PagePlaceholder } from '@/components/common/PagePlaceholder';
+
+export function AdminSettingsPage() {
+  return (
+    <PagePlaceholder
+      title="Settings"
+      description="Configure system preferences and options"
+      icon={<Settings className="h-9 w-9" />}
+    />
+>>>>>>> 5659604fc572f48fdc5ffb0a48e7a78db09dad67
   );
 }

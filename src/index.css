@@ -11,12 +11,15 @@
   body {
     @apply bg-gray-50 text-gray-900 antialiased;
   }
+<<<<<<< HEAD
   button, a, input, select, textarea {
     -webkit-tap-highlight-color: transparent;
   }
   ::selection {
     @apply bg-primary-100 text-primary-900;
   }
+=======
+>>>>>>> 5659604fc572f48fdc5ffb0a48e7a78db09dad67
 }
 
 @layer components {

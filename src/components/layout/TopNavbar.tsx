@@ -61,8 +61,11 @@ export function TopNavbar({ onMenuClick }: TopNavbarProps) {
           {/* Notifications */}
           <div className="relative" ref={notifRef}>
             <button
+<<<<<<< HEAD
               aria-label="Open notifications"
               aria-expanded={notifOpen}
+=======
+>>>>>>> 5659604fc572f48fdc5ffb0a48e7a78db09dad67
               onClick={() => setNotifOpen((v) => !v)}
               className="relative rounded-lg p-2 text-gray-500 hover:bg-gray-100"
             >

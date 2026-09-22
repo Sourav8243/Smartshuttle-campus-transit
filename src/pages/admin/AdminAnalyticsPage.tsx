@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useMemo, useState } from 'react';
 import { Bus, CalendarDays, Clock3, Route as RouteIcon, TrendingUp, Users, XCircle } from 'lucide-react';
 import { Card, CardBody, CardHeader } from '@/components/ui/Card';
@@ -236,5 +237,17 @@ export function AdminAnalyticsPage() {
         <strong>Peak-hour insight:</strong> {peak.value ? `${peak.label} currently has the highest recorded booking demand (${peak.value} bookings).` : 'There is not enough booking data to identify a peak hour yet.'}
       </div>
     </div>
+=======
+import { BarChart3 } from 'lucide-react';
+import { PagePlaceholder } from '@/components/common/PagePlaceholder';
+
+export function AdminAnalyticsPage() {
+  return (
+    <PagePlaceholder
+      title="Analytics"
+      description="Insights and reports on shuttle operations"
+      icon={<BarChart3 className="h-9 w-9" />}
+    />
+>>>>>>> 5659604fc572f48fdc5ffb0a48e7a78db09dad67
   );
 }

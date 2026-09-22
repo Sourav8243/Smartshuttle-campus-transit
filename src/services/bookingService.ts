@@ -115,6 +115,7 @@ export function cancelBooking(bookingId: string): void {
     saveShuttles(shuttles);
   }
 }
+<<<<<<< HEAD
 
 
 export interface BookingUpdate {
@@ -164,3 +165,5 @@ export function updateBooking(bookingId: string, updates: BookingUpdate): Bookin
   saveBookings(bookings);
   return bookings[idx];
 }
+=======
+>>>>>>> 5659604fc572f48fdc5ffb0a48e7a78db09dad67

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useMemo, useState } from 'react';
 import {
   Edit3,
@@ -239,5 +240,17 @@ export function AdminRoutesPage() {
 
       <ConfirmDialog open={!!deleteTarget} onClose={() => setDeleteTarget(null)} onConfirm={confirmDelete} title="Delete route?" message={`Delete ${deleteTarget?.name ?? 'this route'}? This action cannot be undone.`} confirmLabel="Delete Route" danger />
     </div>
+=======
+import { Route } from 'lucide-react';
+import { PagePlaceholder } from '@/components/common/PagePlaceholder';
+
+export function AdminRoutesPage() {
+  return (
+    <PagePlaceholder
+      title="Routes"
+      description="Manage shuttle routes and schedules"
+      icon={<Route className="h-9 w-9" />}
+    />
+>>>>>>> 5659604fc572f48fdc5ffb0a48e7a78db09dad67
   );
 }

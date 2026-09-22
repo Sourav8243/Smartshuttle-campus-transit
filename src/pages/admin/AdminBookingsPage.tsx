@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useMemo, useState, type FormEvent } from 'react';
 import { Calendar, CheckCircle2, Clock, Eye, Filter, Hash, MapPin, Search, User, XCircle } from 'lucide-react';
 import { Card } from '@/components/ui/Card';
@@ -341,3 +342,17 @@ function toTimeInput(value: string): string {
   if (period === 'AM' && hour === 12) hour = 0;
   return `${String(hour).padStart(2, '0')}:${minute}`;
 }
+=======
+import { ClipboardList } from 'lucide-react';
+import { PagePlaceholder } from '@/components/common/PagePlaceholder';
+
+export function AdminBookingsPage() {
+  return (
+    <PagePlaceholder
+      title="Bookings"
+      description="View and manage all student shuttle bookings"
+      icon={<ClipboardList className="h-9 w-9" />}
+    />
+  );
+}
+>>>>>>> 5659604fc572f48fdc5ffb0a48e7a78db09dad67
