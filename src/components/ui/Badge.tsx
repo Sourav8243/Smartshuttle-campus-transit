@@ -1,7 +1,7 @@
 import { type ReactNode } from 'react';
 import { cn } from '@/utils/cn';
 
-type BadgeVariant = 'primary' | 'success' | 'warning' | 'error' | 'neutral';
+export type BadgeVariant = 'primary' | 'success' | 'warning' | 'error' | 'neutral';
 
 interface BadgeProps {
   children: ReactNode;
